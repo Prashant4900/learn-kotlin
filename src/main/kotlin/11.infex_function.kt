@@ -1,7 +1,7 @@
 /*
 *   INFIX FUNCTIONS
 * */
-fun main(args: Array<String>) {
+fun main() {
 
     val x: Int = 6
     val y: Int = 10
@@ -13,10 +13,10 @@ fun main(args: Array<String>) {
 
 infix fun Int.findGreaterValue(other: Int): Int {       // INFIX and Extension Func
 
-    if (this > other)
-        return this
+    return if (this > other)
+        this
     else
-        return other
+        other
 }
 
 /*
