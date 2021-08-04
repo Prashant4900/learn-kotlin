@@ -28,3 +28,17 @@ class Display(var contractureName: String = "") {
         println("contractureName: $contractureName")
     }
 }
+
+/*
+
+*************************************************OUTPUT****************************************************
+
+                                    child
+                                    parent
+                                    contractureName: contracture
+                                    child Name
+                                    changed
+
+*************************************************OUTPUT****************************************************
+
+*/

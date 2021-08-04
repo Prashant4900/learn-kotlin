@@ -1,6 +1,3 @@
-/*
-*   INFIX FUNCTIONS
-* */
 fun main() {
 
     val x: Int = 6
@@ -9,6 +6,8 @@ fun main() {
     val greaterVal = x findGreaterValue y   // x.findGreaterValue(y)
 
     println(greaterVal)
+    
+
 }
 
 infix fun Int.findGreaterValue(other: Int): Int {       // INFIX and Extension Func
@@ -24,3 +23,14 @@ infix fun Int.findGreaterValue(other: Int): Int {       // INFIX and Extension F
 *            But all Extension functions are not INFIX
 *       2. INFIX Functions just have ONE PARAMETER
 * */
+
+
+/*
+
+*************************************************OUTPUT****************************************************
+
+                                                   10
+
+*************************************************OUTPUT****************************************************
+
+*/
